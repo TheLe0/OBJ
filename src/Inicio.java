@@ -104,7 +104,7 @@ public class Inicio extends GLJPanel implements GLEventListener {
 		gl.glLoadIdentity();
 		GLU glu = new GLU();
 
-		glu.gluPerspective(100, (double) getWidth() / getHeight(), 0.1, 100);
+		glu.gluPerspective(20, (double) getWidth() / getHeight(), 0.1, 100);
 		gl.glMatrixMode(GL2.GL_MODELVIEW);
 
 	}
